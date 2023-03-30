@@ -1,4 +1,4 @@
-### :construction: APP em construção ! :construction:
+### :construction: APP em construção! :construction:
 
 # TikTok Clone
 
