@@ -1,10 +1,5 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# TikTok Clone
+
+Made with react and firebase in development on [EBAC fullstack dev journey](https://ebaconline.com.br/webinars/prog-jornadafull-2023-03-28-29-30-31-04-01-02-03-04) held from 03/28 to 04/04/2023.
+
+### :construction: APP em construção! :construction:
