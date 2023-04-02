@@ -1,8 +1,8 @@
 .videoFooter {
   position: relative;
-  bottom: 20%;
+  bottom: 130px;
   color: white;
-  padding-left: 5%;
+  padding-left: 20px;
 }
 
 .videoFooter__text h3 {
@@ -16,7 +16,7 @@
 .videoFooter__music {
   display: flex;
   justify-content: space-between;
-  padding-right: 15%;
+  padding-right: 67px;
   transform: rotateX('angle');
 }
 
@@ -40,8 +40,8 @@
 
 .videoFooter__record {
   position: absolute;
-  bottom: 4%;
-  right: 2.5%;
+  bottom: 4px;
+  right: 20px;
   height: 50px;
   filter: invert(1);
   animation: spinTheRecord 3s infinite linear;
