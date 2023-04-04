@@ -1,6 +1,6 @@
 .videoSideBar {
   position: absolute;
-  top: 40%;
+  top: 27vh;
   right: 0;
   color: white;
 }
@@ -10,39 +10,32 @@
   text-align: center;
 }
 
-@media only screen and (max-height: 654px) {
+@media only screen and (max-height: 600px) {
   .videoSideBar {
-    top: 37%;
+    top: 20vh;
   }
 }
 
-@media only screen and (min-height: 655px) and (max-height: 668px) {
+@media only screen and (min-height: 601px) and (max-height: 667px) {
   .videoSideBar {
-    top: 40%;
+    top: 27vh;
   }
 }
 
-@media only screen and (min-height: 669px) and (max-height: 740px) {
+@media only screen and (min-height: 668px) and (max-height: 740px) {
   .videoSideBar {
-    top: 45%;
+    top: 30vh;
   }
 }
 
-
-@media only screen and (min-height: 741px) and (max-height: 896px) {
+@media only screen and (min-height: 741px) and (max-height: 1180px) {
   .videoSideBar {
-    top: 52%;
+    top: 20vh;
   }
 }
 
-@media only screen and (min-height: 897px) and (max-height: 915px) {
+@media only screen and (min-height: 1181px) and (max-height: 1368px) {
   .videoSideBar {
-    top: 54%;
-  }
-}
-
-@media only screen and (min-height: 916px) and (max-height: 1368px) {
-  .videoSideBar {
-    top: 47%;
+    top: 17vh;
   }
 }

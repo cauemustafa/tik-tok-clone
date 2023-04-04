@@ -1,6 +1,6 @@
 .videoFooter {
   position: relative;
-  bottom: 150px;
+  bottom: 20vh;
   color: white;
   padding-left: 20px;
 }
@@ -58,5 +58,48 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-height: 740px) {
+  .videoFooter {
+    bottom: 30vh;
+  }
+}
+
+@media only screen and (min-height: 741px) and (max-height: 851px) {
+  .videoFooter {
+    bottom: 40vh;
+  }
+}
+
+@media only screen and (min-height: 845px) and (max-height: 851px) {
+  .videoFooter {
+    bottom: 40vh;
+  }
+}
+
+@media only screen and (min-height: 852px) and (max-height: 915px) {
+  .videoFooter {
+    bottom: 33vh;
+  }
+}
+
+@media only screen and (min-height: 916px) and (max-height: 1024px) {
+  .videoFooter {
+    bottom: 27vh;
+  }
+}
+
+
+@media only screen and (min-height: 1025px) and (max-height: 1180px) {
+  .videoFooter {
+    bottom: 22vh;
+  }
+}
+
+@media only screen and (min-height: 1181px) and (max-height: 1368px) {
+  .videoFooter {
+    bottom: 20vh;
   }
 }
