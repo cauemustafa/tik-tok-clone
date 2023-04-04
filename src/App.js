@@ -5,6 +5,8 @@ import './App.css';
 import Video from './pages/Video';
 import db from './config/firebase';
 
+const videosRef = collection(db, 'videos');
+
 function App() {
   const [videos, setVideos] = useState([]);
 
@@ -12,8 +14,7 @@ function App() {
   if (window.innerHeight <= 800) maxHeight = window.innerHeight;
 
   const getVideos = async () => {
-    const videosCollection = collection(db, 'videos');
-    const videosSnapshot = await getDocs(videosCollection);
+    const videosSnapshot = await getDocs(videosRef);
     const videosList = videosSnapshot.docs.map((doc) => doc.data());
     setVideos(videosList);
   };
@@ -23,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App" style={{ maxHeight: maxHeight + 'px'}}>
+    <div className="App" style={{ maxHeight: maxHeight + 'px' }}>
       <section className="app__videos">
         {videos.map((video, index) => (
           <Video
