@@ -8,6 +8,9 @@ import db from './config/firebase';
 function App() {
   const [videos, setVideos] = useState([]);
 
+  let maxHeight;
+  if (window.innerHeight <= 800) maxHeight = window.innerHeight;
+
   const getVideos = async () => {
     const videosCollection = collection(db, 'videos');
     const videosSnapshot = await getDocs(videosCollection);
@@ -20,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App" style={{ maxHeight: maxHeight + 'px'}}>
       <section className="app__videos">
         {videos.map((video, index) => (
           <Video
