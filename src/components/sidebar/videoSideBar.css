@@ -12,30 +12,61 @@
 
 @media only screen and (max-height: 600px) {
   .videoSideBar {
-    top: 20vh;
+    top: 28vh;
   }
 }
 
-@media only screen and (min-height: 601px) and (max-height: 667px) {
+@media only screen and (min-height: 601px) and (max-height: 653px) {
   .videoSideBar {
-    top: 27vh;
+    top: 32vh;
+  }
+}
+
+@media only screen and (min-height: 654px) and (max-height: 667px) {
+  .videoSideBar {
+    top: 33vh;
   }
 }
 
 @media only screen and (min-height: 668px) and (max-height: 740px) {
   .videoSideBar {
+    top: 36vh;
+  }
+}
+
+
+@media only screen and (min-height: 741px) and (max-height: 800px) {
+  .videoSideBar {
     top: 30vh;
   }
 }
 
-@media only screen and (min-height: 741px) and (max-height: 1180px) {
+@media only screen and (min-height: 801px) and (max-height: 851px) {
   .videoSideBar {
-    top: 20vh;
+    top: 32vh;
+  }
+}
+
+@media only screen and (min-height: 852px) and (max-height: 896px) {
+  .videoSideBar {
+    top: 31vh;
+  }
+}
+
+@media only screen and (min-height: 897px) and (max-height: 915px) {
+  .videoSideBar {
+    top: 29vh;
+  }
+}
+
+@media only screen and (min-height: 916px) and (max-height: 1180px) {
+  .videoSideBar {
+    top: 22vh;
   }
 }
 
 @media only screen and (min-height: 1181px) and (max-height: 1368px) {
   .videoSideBar {
-    top: 17vh;
+    top: 18vh;
   }
 }
