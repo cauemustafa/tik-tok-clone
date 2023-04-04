@@ -31,3 +31,10 @@
   /* esconde a scrollbar no IE, edge e firefox */
   display: none;
 }
+
+@media only screen and (max-width: 440px) {
+  .app__videos {
+    max-height: 100vh;
+    max-width: 100%;
+  }
+}
