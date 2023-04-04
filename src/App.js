@@ -22,8 +22,9 @@ function App() {
   return (
     <div className="App">
       <section className="app__videos">
-        {videos.map((video) => (
+        {videos.map((video, index) => (
           <Video
+            key={index}
             likes={video.likes}
             comments={video.comments}
             shares={video.shares}
