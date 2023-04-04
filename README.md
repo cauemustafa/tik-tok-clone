@@ -11,8 +11,14 @@ https://tiktok-clone-c8ab5.web.app/
 
 ### To initialize the project on your local:
 1. Clone the project:
-```git clone git@github.com:cauemustafa/tik-tok-clone.git```
+```sh
+git clone git@github.com:cauemustafa/tik-tok-clone.git
+```
 2. Install the dependencies:
-```npm i```
+```sh
+npm i
+```
 3. Start on your local:
-```npm start```
+```sh
+npm start
+```
