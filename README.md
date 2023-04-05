@@ -6,8 +6,10 @@ Project developed on [EBAC fullstack dev journey](https://ebaconline.com.br/webi
 This project was made with [React.js](https://react.dev/) and the database and the deploy with [google firebase](https://firebase.google.com/).
 The icons are of the library [Material Icons](https://mui.com/material-ui/material-icons/).
 
-## Deploy link :rocket:
+## Deploy link :rocket: 
 https://tiktok-clone-c8ab5.web.app/
+
+- Give me feedbacks about the application.
 
 ### To initialize the project on your local:
 1. Clone the project:
